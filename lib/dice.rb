@@ -5,3 +5,4 @@ class Dice
 end
 
 #I'm a little comment, hello there.
+#I'm another comment, let's see if my new command works.
