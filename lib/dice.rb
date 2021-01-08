@@ -1,8 +1,6 @@
 class Dice
-  def roll
-    rand(1..6)
+  def roll(num_of_dice = 1)
+    rand((1*num_of_dice)..(6*num_of_dice))
+    #num_of_dice.times { rand(6) + 1 }
   end
 end
-
-#I'm a little comment, hello there.
-#I'm another comment, let's see if my new command works.
