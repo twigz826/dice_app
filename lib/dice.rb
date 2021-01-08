@@ -3,3 +3,5 @@ class Dice
     rand(1..6)
   end
 end
+
+#I'm a little comment, hello there.
